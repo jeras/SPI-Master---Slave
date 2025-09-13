@@ -42,7 +42,7 @@ module spi_top_tb();
     else
       $display("SPI Transfer Failed!");
 
-   
+    $finish();
   end
 
 endmodule
